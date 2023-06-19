@@ -5,7 +5,7 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="350dp"
+        android:layout_width="371dp"
         android:layout_height="wrap_content">
 
         <View
@@ -48,14 +48,14 @@
                     android:layout_height="wrap_content"/>
             </LinearLayout>
             <ImageView
-                android:layout_marginLeft="170dp"
+                android:layout_marginLeft="191dp"
                 android:src="@drawable/Rectangle15"
                 android:layout_width="80dp"
                 android:layout_height="80dp"/>
         </LinearLayout>
         
         <Button
-            android:layout_marginLeft="270dp"
+            android:layout_marginLeft="291dp"
             android:textSize="10dp"
             android:text="Tambah"
             android:fontFamily="@font/seguisb"

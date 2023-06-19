@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content">
+
+        <View
+            android:background="#86868666"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="70dp">
+
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/seguisb"
+                    android:text="sushi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/SegoeUI"
+                    android:text="Aneka Sushi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/seguisb"
+                    android:text="Rp. 40.000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_marginLeft="170dp"
+                android:src="@drawable/Rectangle15"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+        </LinearLayout>
+        
+        <Button
+            android:layout_marginLeft="270dp"
+            android:textSize="10dp"
+            android:text="Tambah"
+            android:fontFamily="@font/seguisb"
+            android:layout_width="80dp"
+            android:layout_height="40dp"/>
+
+        
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

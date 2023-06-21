@@ -13,11 +13,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <EditText
-            android:background="@drawable/edittextstroke"
-            android:shadowColor="@color/black"
-            android:layout_width="290dp"
-            android:layout_height="50dp"/>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_marginRight="32dp"
+                android:background="@drawable/edittextstroke"
+                android:shadowColor="@color/black"
+                android:layout_width="298dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:src="@drawable/Rectangle61"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+
 
         <LinearLayout
             android:layout_marginTop="21dp"

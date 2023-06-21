@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Reservasiin"
         tools:targetApi="31">
         <activity
+            android:name=".CekActivity"
+            android:exported="false" />
+        <activity
             android:name=".keteranganActivity"
             android:exported="false" />
         <activity

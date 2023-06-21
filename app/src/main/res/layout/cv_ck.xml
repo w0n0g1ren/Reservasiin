@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_marginBottom="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:src="@drawable/Rectangle15"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="12sp"
+                android:fontFamily="@font/seguisb"
+                android:textColor="@color/black"
+                android:text="Sushi"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:textSize="12sp"
+                android:fontFamily="@font/SegoeUI"
+                android:textColor="@color/black"
+                android:text="Jumlah : 1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:textAlignment="textEnd"
+            android:textSize="12sp"
+            android:fontFamily="@font/seguisb"
+            android:textColor="@color/black"
+            android:text="Rp. 40.000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

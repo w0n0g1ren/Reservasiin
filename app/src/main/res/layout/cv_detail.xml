@@ -55,6 +55,7 @@
         </LinearLayout>
         
         <Button
+            android:textAllCaps="false"
             android:layout_marginLeft="291dp"
             android:textSize="10dp"
             android:text="Tambah"

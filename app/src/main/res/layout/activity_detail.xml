@@ -211,6 +211,7 @@
                 android:layout_height="30dp"/>
             
             <TextView
+                android:id="@+id/btn_pilih_tempat"
                 android:textSize="12sp"
                 android:fontFamily="@font/seguisb"
                 android:textColor="@color/white"

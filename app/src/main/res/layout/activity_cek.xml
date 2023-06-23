@@ -158,7 +158,9 @@
     </LinearLayout>
 
     <Button
-        android:layout_marginLeft="180dp"
+        android:id="@+id/btn_pilih_pembayaran"
+        android:textAllCaps="false"
+        android:layout_marginLeft="197dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="41dp"
